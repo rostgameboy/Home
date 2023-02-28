@@ -3,7 +3,7 @@ body{
 }
 .header{
     background: url("../img/Home.png");
-    width: 1650px;
+    width: auto;
     height: 770px;
     margin-bottom: 20px;
 }
