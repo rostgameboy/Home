@@ -1,5 +1,6 @@
-body{
-
+*{
+    margin: 0;
+    padding: 0;
 }
 .header{
     background: url("../img/Home.png");
@@ -9,7 +10,8 @@ body{
 }
 .buttons{
     display: flex;
-    height: 350px;
+    height: 300px;
+    padding: 20px; 
 }
 .name{
     color: white;
@@ -41,13 +43,16 @@ a{
 .Wellcome{
     color: white;
 }
+.GetStartUp-div{
+    display: flex;
+    justify-content: center;
+}
 .GetStartup{
     height: 42px;
 	border: none;
 	background: red;
 	color: #f2f2f2;
 	padding: 10px;
-    margin-left: 750px;
 	font-size: 18px;
 	border-radius: 5px;
 	position: relative;
@@ -63,7 +68,7 @@ a{
 	height: 42px;
 	background: rgba(255,255,255,0.3);
 	border-radius: 5px;
-	transition: all 2s ease;
+	transition: all 1s ease;
 }
 button:hover:before {
 	width: 100%;
@@ -71,19 +76,18 @@ button:hover:before {
 .main-inner{
     display: flex;
     justify-content: center;
-}
-hr{
-    width: 50px;
-    border: 1px solid black;
+    border-bottom: 2px black solid;
+    padding: 20px;
 }
 .main-title{
     display: flex;
     justify-content: center;
+    margin: 40px;
 }
 .services{
     display: flex;
     width: 100%;
-    height: 200px;
+    height: 320px;
     justify-content: space-around;
 }
 .service{
@@ -100,12 +104,11 @@ hr{
     align-items: center;
     background-color: #C0301C;
     width: 100%;
-    height: 200px;
-    margin-top: 100px;
+    height: 150px;
 }
 .twitter-img{
     display: flex;
     justify-content: space-around;
     width: 300px;
-    margin-top: 25px;
+    margin: 25px;
 }
